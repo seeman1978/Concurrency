@@ -3,4 +3,4 @@ project(Concurrency)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Concurrency main.cpp hardware_concurrency.cpp)
+add_executable(Concurrency hardware_concurrency.cpp)
