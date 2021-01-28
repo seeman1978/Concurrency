@@ -3,4 +3,4 @@ project(Concurrency)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Concurrency main.cpp threadsafe_stack.cpp)
+add_executable(Concurrency hierarchical_mutex.cpp)
